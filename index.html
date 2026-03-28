@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News Article</title>
+
+  <style>
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      background-color: white;
+      color: black;
+      margin: 20px;
+      padding: 0;
+    }
+
+    .article-container {
+      line-height: 1.6;
+      font-size: 15px;
+      max-width: 700px;
+    }
+
+    .photo-container {
+      float: left;
+      width: 120px;
+      margin-right: 15px;
+      margin-bottom: 5px;
+      text-align: center;
+    }
+
+    .photo img {
+      width: 120px;
+      height: 160px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .photo-caption {
+      font-family: monospace;
+      font-size: 11px;
+      color: #888;
+      margin-top: 3px;
+    }
+
+    .text {
+      text-align: left;
+    }
+
+    .fake-link {
+      color: #1a0dab;
+      cursor: pointer;
+    }
+
+    .fake-link:hover {
+      text-decoration: underline;
+    }
+
+    .date {
+      clear: both;
+      margin-top: 20px;
+      font-size: 14px;
+      color: #333;
+      text-align: right;
+    }
+
+    @media (max-width: 480px) {
+      .photo-container {
+        float: left;
+        margin: 0 15px 5px 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="article-container">
+
+    <div class="photo-container">
+      <div class="photo">
+        <img src="IMG_20260322_110759_782.jpg" alt="Photo">
+      </div>
+      <div class="photo-caption">228 KB | photo.jpg</div>
+    </div>
+
+    <div class="text">
+      The suspect was arrested in 2026 during an attempted assassination of a high-ranking government official. According to the investigation, since 2019 he had carried out a series of contract killings for monetary compensation while evading law enforcement. The court found him guilty under the Criminal Code of the Republic of Kazakhstan: Article 99 “Murder” — intentional causing of death to another person, and Article 170 “Mercenary Activities” — recruiting, financing, or using individuals for violent acts for payment. The sentence is life imprisonment without the possibility of parole.
+      (
+      <a class="fake-link" href="https://youtu.be/xMHJGd3wwZk?si=u7whc_45mZLGmv0" target="_blank">
+        See the full report for details
+      </a>
+      )
+    </div>
+
+    <div class="date">Published: 15 March 2026</div>
+
+  </div>
+
+</body>
+</html>
